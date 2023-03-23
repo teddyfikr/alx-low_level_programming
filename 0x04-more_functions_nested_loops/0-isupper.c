@@ -2,7 +2,7 @@
 /**
  * _isupper - checks the uppercase or otherwise.
  *@c: input value
- * Return: Always 0.
+ * Return: Returns  1 when it is capital letter or 0 otherwise
  *
  */
 int _isupper(int c)
