@@ -1,16 +1,18 @@
 #include "main.h"
 
 /**
- * print_most_numbers -Prints number 0-9 except 2 & 4
+ * print_numbers-prints numbers  0-9
  *
- * @i: loop variable
  */
-void print_most_numbers(void)
+void print_numbers(void)
 {
-	int i = 0;
+	int i;
 
-	for (i = 0 ; i <= 9 ; i++)
+	for (i = 48 ; i <= 57 ; i++)
 	{
 		_putchar (i);
 	}
+
+	_putchar ('\n');
 }
+
