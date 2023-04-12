@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * check - checks for the square root
+ * check_squ - checks for the square root
  * @i: integer number
  * @j: integer number
  * Return: int
